@@ -1,0 +1,135 @@
+*
+{
+	border:0px solid red;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+
+body
+{
+	background: color #4a4546;
+}
+#logotipo
+{	margin-top:30px;
+	background-image: url(fundo-de-grade-de-neon_53876-91657.jpg); /* css/#logotipo */
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 250px;
+}
+.redeimg
+{
+	margin-top:15px;
+	height: 64px;
+	width: 64px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float:left;
+	margin-left: 25px;
+	transition-duration: 0.3s;
+}
+.redeimg:hover
+{
+	transform: scale(1.2);
+}
+#foot
+{
+	width: 100%;
+	height: 120px;
+	background-color:#535353;
+	padding:10px;
+	margin-top:10px;
+	padding-left:50px;
+}
+#footinfo
+{
+	height: 100%;
+	width: 100px;
+	float:left;
+}
+.jogo_texto {
+	color:white
+}
+#footcopy
+{
+	font-size: 18px;
+	width: 62%;
+	margin-top: 35px;
+	margin-left:10px;
+	margin-right:10px;
+	text-align: center;
+	float:left;
+}
+#footredes
+{
+	float:right;
+	width:325px;
+	height:100%;
+}
+#corpo
+{
+	background: #291c01e7;
+	width: 93%;
+	height: 100%;
+	min-height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	border-left: 2px solid rbga(255,0,0,1);
+	padding-bottom:25px;
+}
+#navbar
+{
+	background-color:#f70b0bec;
+	width:100%;
+	min-height:45px;
+}
+ul
+{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+#navbar li
+{
+	float:left;
+	font-size:25px;
+	padding:5px;
+}
+#navbar li:hover
+{
+	transition-duration: 0.3s;
+	background-color:white;
+}
+
+a
+{
+	font-family: Arial;
+	text-decoration: none;
+}
+a:link,a:visited
+{
+	color: #ffffff;
+}
+a:hover
+{
+	text-decoration: none;
+	color: #413f3f;
+}
+.container
+{
+	padding-left:0;
+	padding-right:0;
+	margin-left:0;
+	margin-right:0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:2px;
+}
+.carousel-control.left,.carousel-control.right
+{
+	width:64px;
+}
